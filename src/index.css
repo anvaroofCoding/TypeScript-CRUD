@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 1440px;
+}
